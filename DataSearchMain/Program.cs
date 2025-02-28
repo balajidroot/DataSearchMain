@@ -5,7 +5,7 @@ public class DataSearchMain
 {
     public static async Task Main(string[] args)
     {
-        string filePath = "C:\\Users\\balaji.d\\Downloads\\customers-2000000\\crore1.csv"; // Replace with your CSV file path
+        string filePath = "crore1.csv"; // Replace with your CSV file path
         string searchName = "Johnny Yoder Micheal"; // Replace with your search term
         int ChunkSize = 5000;
 
@@ -31,7 +31,7 @@ namespace DataProcessorConsole
     {
         static void Main(string[] args)
         {
-            string filePath = "C:\\Users\\balaji.d\\Downloads\\customers-2000000\\crore1.csv"; // Replace with your file path
+            string filePath = "crore1.csv"; // Replace with your file path
             int chunkSize = 5000;
             var dataProcessor = new DataProcessor(filePath, chunkSize);
 
